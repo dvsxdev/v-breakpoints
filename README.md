@@ -95,6 +95,7 @@ console.log(breakpoints)
 | **height**          | Current viewport height in pixels.                                                                                     |
 | **breakpointWidth** | The width in pixels associated with the current `breakpoint`.                                                          |
 | **orientation**     | Current screen orientation (**portrait**, **landscape**, **square**, or null if the orientation cannot be determined). |
+| **breakpoints**     | List of the configured breakpoints                                                                                     |
 
 ## Global Configuration
 
