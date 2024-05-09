@@ -1,0 +1,61 @@
+{
+  "name": "v-breakpoints",
+  "description": "A Vue 3 composition functions to manage and respond to changes in the browser's viewport size, facilitating responsive design and screen orientation adjustments in Vue applications.",
+  "keywords": [
+    "v-breakpoints",
+    "vue",
+    "vue3",
+    "media",
+    "responsive",
+    "screen",
+    "breakpoints",
+    "viewport",
+    "media queries",
+    "composition api",
+    "vue composition api",
+    "vue plugin",
+    "responsive design",
+    "adaptive design",
+    "screen orientation"
+  ],
+  "repository": {
+    "url": "https://github.com/sortxtech/v-breakpoints.git"
+  },
+  "author": {
+    "name": "SortXTech",
+    "email": "sortxtech@gmail.com"
+  },
+  "license": "MIT",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.umd.cjs",
+  "module": "./dist/index.js",
+  "browser": "./dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.cjs"
+    }
+  },
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "format": "npx prettier ./src --write",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "prettier": "3.2.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-plugin-dts": "^3.9.1",
+    "vue-tsc": "^2.0.6"
+  }
+}
