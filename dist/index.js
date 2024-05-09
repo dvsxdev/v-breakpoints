@@ -27,7 +27,8 @@ function w(r = {}) {
     height: 0,
     width: 0,
     breakpointWidth: 0,
-    orientation: null
+    orientation: null,
+    breakpoints: e
   }), s = () => {
     let t = null;
     const i = window.innerWidth, a = window.innerHeight;

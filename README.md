@@ -69,10 +69,10 @@ const { breakpoint } = useBreakpoints({
 
 #### Get Breakpoints
 
-By using `inject('vb:breakpoints')`, you can retrieve the list of configured breakpoints.
+Also, you can retrieve the list of configured breakpoints.
 
 ```js
-const breakpoints = inject("vb:breakpoints")
+const { breakpoints } = useBreakpoints()
 console.log(breakpoints)
 /* {
   xs: 0,

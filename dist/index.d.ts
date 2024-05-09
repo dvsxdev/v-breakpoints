@@ -17,6 +17,7 @@ width: number;
 height: number;
 breakpointWidth: number;
 orientation: "portrait" | "landscape" | "square" | null;
+breakpoints: Breakpoints;
 }>;
 
 export { }
