@@ -1,6 +1,6 @@
 {
   "name": "v-breakpoints",
-  "description": "A Vue 3 composition functions to manage and respond to changes in the browser's viewport size, facilitating responsive design and screen orientation adjustments in Vue applications.",
+  "description": "v-breakpoints is a Vue 3 plugin designed to streamline responsive design by providing a centralized way to manage and listen to viewport changes. It simplifies handling breakpoints and screen sizes, enhancing component behavior and layout adjustments across various devices.",
   "keywords": [
     "v-breakpoints",
     "useBreakpoints",
@@ -27,7 +27,7 @@
     "email": "sortxtech@gmail.com"
   },
   "license": "MIT",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "type": "module",
   "main": "./dist/index.umd.cjs",
   "module": "./dist/index.js",

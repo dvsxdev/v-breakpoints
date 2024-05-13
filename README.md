@@ -251,11 +251,11 @@ createApp(App)
     },
     screens: {
       phone: 0,          // 0px - 767px
-      tablet: 768,       // 768px - 1199px
+      tablet: 768,       // 768px - 1600px
       desktop: 1601,     // 1601px - Above
     },
     breakpoints: {
-      xs: 0,       // 0px - 639px
+      xs: 0,       // 0px - 767px
       md: 768,     // 768px - 1023px
       lg: 1024,    // 1024px - Above
     },
