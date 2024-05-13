@@ -3,6 +3,7 @@
   "description": "A Vue 3 composition functions to manage and respond to changes in the browser's viewport size, facilitating responsive design and screen orientation adjustments in Vue applications.",
   "keywords": [
     "v-breakpoints",
+    "useBreakpoints",
     "vue",
     "vue3",
     "media",
@@ -26,7 +27,7 @@
     "email": "sortxtech@gmail.com"
   },
   "license": "MIT",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "type": "module",
   "main": "./dist/index.umd.cjs",
   "module": "./dist/index.js",
@@ -43,7 +44,6 @@
   ],
   "scripts": {
     "dev": "vite",
-    "format": "npx prettier ./src --write",
     "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
@@ -52,7 +52,6 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
-    "prettier": "3.2.5",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
     "vite-plugin-dts": "^3.9.1",

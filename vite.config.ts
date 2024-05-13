@@ -9,7 +9,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: "src/v-breakpoints/index.ts",
-      name: "v-breakpoints",
+      name: "VBreakpoints",
       fileName: "index",
     },
     rollupOptions: {
