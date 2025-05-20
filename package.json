@@ -20,11 +20,10 @@
     "screen orientation"
   ],
   "repository": {
-    "url": "https://github.com/sortxtech/v-breakpoints.git"
+    "url": "https://github.com/dvsxdev/v-breakpoints.git"
   },
   "author": {
-    "name": "SortXTech",
-    "email": "sortxtech@gmail.com"
+    "name": "dvsxdev"
   },
   "license": "MIT",
   "version": "2.0.1",
